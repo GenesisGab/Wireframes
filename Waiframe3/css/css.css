@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --ColorAqua: #4FE0B0;
+    --ColorBlanco: #F7F9F9;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.cajaPadre{
+    background-color: var(--ColorAqua);
+    width: 340px;
+    height: 620px;
+    border-radius: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 25px;
+    align-self: center;
+}
+.item1{
+    background-color: var( --ColorBlanco);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 430px;
+}
+.item2{
+    background-color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    
+    align-self: center;
+}
