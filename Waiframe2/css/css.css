@@ -9,57 +9,60 @@
     --ColorNaranja: #FF9454;
     --ColorAzul: #010B40;;
 }
+html{
+    font-size: 62.5%; /*<--- Unidad General 10px*/
+}
 .main{
-    width: 375px;
+    width: 37.5rem;/*375px*/
     height: auto;
-    padding: 30px;
-    border-radius: 10px;
+    padding: 3rem;/*30px*/
+    border-radius: 1rem;/*10px**/
 
     display: flex;
     flex-direction: column;
 }
 .item1{
-    width: 150px;
-    height: 150px;
+    width: 15rem;/**150px*/
+    height: 15rem;/**150px*/
     background-color: var(--colorMorado2);
     border-radius: 100%;
-    margin-top: 40px;
+    margin-top: 4rem;/*40px**/
     align-self: center;
 }
 .item2{
-    width: 265px;
-    height: 25px;
+    width: 26.5rem;/**265px*/
+    height: 2.5rem;/**25px**/
     background-color: var(--colorMorado);
-    border-radius: 25px;
+    border-radius: 2.5rem;/**25**/
     
-    margin-top: 50px; 
-    margin-bottom: 40px;
+    margin-top: 5rem; /*50**/
+    margin-bottom: 4rem;/**40**/
     align-self: center;
 }
 .item3{
-    width: 130px;
-    height: 15px;
+    width: 13rem;/**130px**/
+    height: 1.5rem;/**15px**/
     background-color: var(--ColorAzul);
-    border-radius: 25px;
+    border-radius: 2.5rem;/**25*/
     
-    margin-top: 10px;
+    margin-top: 1rem;/**10px**/
     align-self: center;
 }
 .item4{
-    width: 260px;
-    height: 130px;
+    width: 26rem;/**260px**/
+    height: 13rem;/**130px**/
     background-color: var(--ColorNaranja);
-    border-radius: 15px;
+    border-radius: 1.5rem;/**15**/
     
-    margin-top: 40px;
+    margin-top: 4rem;/**40px**/
     align-self: center;
 }
 .item5{
-    width: 260px;
-    height: 25px;
+    width: 26rem;/**260px**/
+    height: 2.5rem;/**25px**/
     background-color: var(--ColorAzul);
-    border-radius: 7px;
+    border-radius: 0.7rem;/**7**/
     
-    margin-top: 40px; 
+    margin-top: 4rem; /*40px**/
     align-self: center;
 }

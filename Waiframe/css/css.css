@@ -1,13 +1,27 @@
+/****************************************************************
+UNIDADES DE MEDIDAS RELATIVAS
+
+*EM
+    esta medida se establece con relacion al font-size mas cercano
+
+*REM 
+    esta medida se establece con relacion al font-size del html
+
+****************************************************************/
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%; /*<--- Unidad General 10px*/
+}
 :root{
     --ColorNaranja: #FF9454;
 }
 .main-1{
-    width: 375px;
+    width: 37.5rem;
     height: auto;
     padding: 30px;
     border: 1px solid black;
@@ -17,14 +31,14 @@
     flex-direction: column;
 }
 .items-1{
-    width: 180px;
-    height: 220px;
+    width: 18rem;
+    height: 22rem;
     background-color: var(--ColorNaranja);
     border-radius: 10px;
 }
 .items-2{
-    width: 180px;
-    height: 100px;
+    width: 18rem;
+    height: 10rem;
     background-color: var(--ColorNaranja);
     border-radius: 10px;
     
@@ -32,8 +46,8 @@
     align-self: flex-end;
 }
 .items-3{
-    width: 180px;
-    height: 170px;
+    width: 18rem;
+    height: 17rem;
     background-color: var(--ColorNaranja);
     border-radius: 10px;
     
@@ -41,8 +55,8 @@
     align-self: center;
 }
 .items-4{
-    width: 180px;
-    height: 40px;
+    width: 18rem;
+    height: 4rem;
     background-color: var(--ColorNaranja);
     border-radius: 25px;
     

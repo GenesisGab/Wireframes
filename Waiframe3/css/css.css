@@ -7,37 +7,40 @@
     --ColorAqua: #4FE0B0;
     --ColorBlanco: #F7F9F9;
 }
+html{
+    font-size: 62.5%; /*<--- Unidad General 10px*/
+}
 .main{
     display: flex;
     flex-direction: column;
 }
 .cajaPadre{
     background-color: var(--ColorAqua);
-    width: 340px;
-    height: 620px;
-    border-radius: 25px;
+    width: 34rem;/**340**/
+    height: 62rem;/**620**/
+    border-radius: 2.5rem;
     
     display: flex;
     flex-direction: column;
     
-    margin-top: 25px;
+    margin-top: 2.5rem;/**25**/
     align-self: center;
 }
 .item1{
     background-color: var( --ColorBlanco);
-    width: 60px;
-    height: 60px;
+    width: 6rem;
+    height: 6rem;/**60**/
     border-radius: 100%;
     
-    margin-left: 30px;
-    margin-top: 40px;
-    margin-bottom: 430px;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 43rem;
 }
 .item2{
     background-color: #fff;
-    width: 250px;
-    height: 50px;
-    border-radius: 15px;
+    width: 25rem;
+    height: 5rem;
+    border-radius: 1.5rem;
     
     align-self: center;
 }
